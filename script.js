@@ -1,5 +1,4 @@
-<script>
-jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+
 
 // Patch XHR to inject token into segments
 (function() {
@@ -44,4 +43,4 @@ jwplayer("player").setup({
     msg.innerText = "Player error: " + (e.message || "Unknown error");
     document.body.appendChild(msg);
 });
-</script>
+
